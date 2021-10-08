@@ -1063,6 +1063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeTrigger: {fileID: 963194228}
   volumeLayer:
+    serializedVersion: 2
     m_Bits: 1
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
@@ -1072,9 +1073,6 @@ MonoBehaviour:
     sharpness: 0.25
     stationaryBlending: 0.95
     motionBlending: 0.85
-    <jitter>k__BackingField: {x: 0, y: 0}
-    m_ResetHistory: 1
-    <sampleIndex>k__BackingField: 0
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
@@ -1083,18 +1081,21 @@ MonoBehaviour:
   fog:
     enabled: 1
     excludeSkybox: 1
-  dithering:
-    m_NoiseTextureIndex: 11
   debugLayer:
-    lightMeter: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, showCurves: 1}
-    histogram: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, channel: 3}
-    waveform: {<output>k__BackingField: {fileID: 0}, requested: 0, exposure: 0.12, height: 256}
-    vectorscope: {<output>k__BackingField: {fileID: 0}, requested: 0, size: 256, exposure: 0.12}
-    frameWidth: 1920
-    frameHeight: 1080
-    <debugOverlayTarget>k__BackingField: {fileID: 0}
-    <debugOverlayActive>k__BackingField: 0
-    <debugOverlay>k__BackingField: 0
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
     overlaySettings:
       linearDepth: 0
       motionColorIntensity: 4
@@ -1108,12 +1109,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
-  <cameraDepthFlags>k__BackingField: 1
-  <haveBundlesBeenInited>k__BackingField: 0
-  m_Camera: {fileID: 963194227}
-  m_SettingsUpdateNeeded: 1
-  m_IsRenderingInSceneView: 0
-  m_NaNKilled: 0
 --- !u!1001 &1030345723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1213,15 +1208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: e8070a667976141729bf0a8324e6c3c0, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 8f324d0773fda4274a7ed44078a852e2, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
-  m_PreviousLayer: 0
-  m_PreviousPriority: 0
-  m_TempColliders: []
-  m_InternalProfile: {fileID: 0}
 --- !u!65 &1086891132
 BoxCollider:
   m_ObjectHideFlags: 0
