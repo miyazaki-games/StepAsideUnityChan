@@ -581,3 +581,6 @@ Cmd: compileComputeKernel
 Cmd: compileComputeKernel
   insize=3184 file=/Users/ryono/Desktop/Unity Project/StepAsideUnityChan/Library/PackageCache/com.unity.postprocessing@3.1.1/PostProcessing/Shaders/Builtins/AutoExposure.compute kernel=KAutoExposureAvgLuminance_progressive cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<MAIN=KAutoExposureAvgLuminance_progressive>,<PROGRESSIVE=1>,<UNITY_VERSION=202039> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_MOBILE UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 ok=1 outsize=200544
 
+Cmd: shutdown
+
+Quitting shader compiler process
